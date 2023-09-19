@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="190dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#5aac6b"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView android:textStyle="bold"
+            android:id="@+id/textView6"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="28dp"
+            android:text="Are You Sure Want To Remove This Trip?"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="29dp"
+            android:src="@drawable/icon_risk_assesment_dialog_submit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        <Button
+            android:id="@+id/btnDeleteDialogDeleteTrip"
+            android:layout_width="96dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="DELETE"
+            app:backgroundTint="#5AAC6B"
+            app:backgroundTintMode="add"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <Button
+            android:id="@+id/btnCancelDialogDeleteTrip"
+            android:layout_width="96dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="55dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:text="Cancel"
+            app:backgroundTint="#AA4242"
+            app:backgroundTintMode="add"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--    #5AAC6B-->

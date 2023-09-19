@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/menu_add"
+            android:icon="@drawable/add_icon"
+            android:title="Add Trip" />
+        <item
+            android:id="@+id/menu_list"
+            android:icon="@drawable/list_icon"
+            android:title="List" />
+
+    </group>
+
+    <item android:title="Data Management">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_reset"
+                android:icon="@drawable/reset_icon"
+                android:title="Reset Data" />
+            <item
+                android:id="@+id/menu_cloud"
+                android:icon="@drawable/cloud_icon"
+                android:title="Cloud BackUp" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="More Infomation">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/menu_about"
+                    android:icon="@drawable/about_icon"
+                    android:title="About" />
+
+                <item
+                    android:id="@+id/menu_hotline"
+                    android:icon="@drawable/hotline_icon"
+                    android:title="HotLine" />
+
+            </group>
+
+
+        </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">M-Expense</string>
+    <string name="open_menu">Open Navigation</string>
+    <string name="close_menu">Close Navigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

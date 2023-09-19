@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "79111868209",
+    "project_id": "m-expense-anhd",
+    "storage_bucket": "m-expense-anhd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79111868209:android:9e06044846f09aafa5aa10",
+        "android_client_info": {
+          "package_name": "hongdieuan.m_expense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79111868209-ondnq46s0sic0t5odcqkrecn57djnida.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJy9is9sJnpb-d2D_NsXr1z938Ue11En8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79111868209-ondnq46s0sic0t5odcqkrecn57djnida.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
